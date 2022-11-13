@@ -1,7 +1,12 @@
 #header {
+    background-color: white;
     color: black;
     font-weight: bolder;
-    background-color: white;
+
+}
+
+body {
+    background-color: #548F66;
 }
 
 #headerContent {
@@ -14,11 +19,8 @@
     font-size: 2em;
 }
 
-body {
-	background-color: #F6F4F5;
-}
-
 .link {
     text-decoration: none;
     color: black;
+    margin-right: 20px;
 }

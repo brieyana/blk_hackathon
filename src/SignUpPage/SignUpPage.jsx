@@ -5,8 +5,10 @@ const SignUpPage = () => {
     return (
         <div>
             <div id={CSS.header}>
-                <h1 id={CSS.heading}>We Study</h1>
-                <a href="https://google.com" className={CSS.link}>Log in</a>
+                <div id={CSS.headerContent}>
+                    <h1 id={CSS.heading}>UTD Study</h1>
+                    <a href="/login" className={CSS.link}>Log in</a>
+                </div>
             </div>
             <SignUpForm />
         </div>
