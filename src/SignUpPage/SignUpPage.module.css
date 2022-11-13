@@ -1,0 +1,17 @@
+#header {
+    background-color: #2E99A3;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+#heading {
+    font-size: 2em;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}

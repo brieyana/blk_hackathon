@@ -1,0 +1,46 @@
+#heading {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.inputBlock {
+    margin-bottom: 2vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    background-color: #F6F6F6;
+    border: none;
+    border-radius: 5%;
+    height: 25px;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submitButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 150px;
+}
+
+.submitButton:hover {
+    background-color: rgb(71, 71, 71);
+}
