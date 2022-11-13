@@ -1,3 +1,7 @@
+form {
+    margin: 50px;
+}
+
 #heading {
     font-weight: bolder;
     text-align: center;
@@ -18,15 +22,26 @@
 input {
     display: block;
     background-color: #F6F6F6;
-    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
     border-radius: 5%;
-    height: 25px;
+    width: 300px;
+    height: 35px;
+    outline: none;
+}
+
+label {
+    display: block;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 #buttonContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .submitButton {
@@ -38,9 +53,14 @@ input {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
-    width: 150px;
+    width: 200px;
+    flex-grow: 1;
 }
 
 .submitButton:hover {
     background-color: rgb(71, 71, 71);
+}
+
+span {
+    color: red;
 }
